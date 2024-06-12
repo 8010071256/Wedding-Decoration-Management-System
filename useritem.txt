@@ -1,0 +1,28 @@
+<html>
+<body>
+  <div class="container">
+<center>
+      <link rel="stylesheet" href="registrationfile.css">
+  <p style="background-image:url('christmas.jpg');">
+    <hr>
+<label for="program">Select Program Type:</label>
+  <select name="program" id="program">
+    <option value="Merrage">Merrage</option>
+    <option value="Sakharpuda">Sakharpuda</option>
+    <option value="JagranGhondhal">JagranGhondhal</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br><br>
+
+    <br>
+    <input type="text" placeholder="Enter total guest" name="Fname" id="Fname" required>
+    <br>
+    <input type="text" placeholder="Enter total chair" name="Mname" id="Mname" required>
+    <br>
+    <input type="text" placeholder="Enter total Table" name="Lname" id="Lname" required>
+    <br>
+    <button type="submit" name ="submit" class="registerbtn" id="registerb" onclick="validationreg">Register</button>
+  </div>
+</center>
+</body>
+</html>

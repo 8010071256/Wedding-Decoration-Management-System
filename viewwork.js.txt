@@ -1,0 +1,3 @@
+function myFunc(){
+document.getElementById("home").style.width = "250px";
+}
